@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Camera API with custom image processing. The issue arises when attempting to access pixel data from a captured image using the `Camera.takePictureAsync()` method. The returned image data might be corrupt or incomplete, leading to unexpected behavior in subsequent processing steps, such as crashes or incorrect image manipulation.
